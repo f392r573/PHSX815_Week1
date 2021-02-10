@@ -83,10 +83,10 @@ if __name__ == "__main__":
     
 
     # create histogram of our data
-    n, bins, patches = plt.hist(myx_new, 50, density=True, facecolor='g', alpha=0.75)
+    n, bins, patches = plt.hist(myx_new, 50, density=True, facecolor='r', alpha=0.75)
 
     # plot formating options
-    plt.xlabel('x')
+    plt.xlabel('x values')
     plt.ylabel('Probability')
     plt.title('Uniform random number')
     plt.grid(True)
